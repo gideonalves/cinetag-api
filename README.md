@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Cinetag React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="./public/imagens/mobile.gif">
 
-## Available Scripts
+<br>
+<br>
+<p align="center">
+  <a href="https://github.com/gideonalves">
+    <img alt="Feito por Gideon Alves" src="https://img.shields.io/badge/feito%20por-Gideon Alves-blue">
+  </a>
+</p>
 
-In the project directory, you can run:
+### Link do projeto? Clique aqui: https://cinetag-api-kappa.vercel.app/
+## Introdução
 
-### `npm start`
+Este projeto foi criado a partir do curso da Alura - React:Praticando com Js, com a instrutora Mônica Hillman, onde a ideia é a criação de uma plataforma de compartilhamento de filmes que possibilita a ação tanto de assistir quanto de favoritar um item. Além disso, ao clicarmos na imagem seremos redirecionado para a tela de Player, onde é exibido o vídeo. Dessa forma, foi utilizado React, HTML5, CSS3 e JavaScript então pude colocar em prática o conhecimento sobre rotas dinâmicas, normais e aninhadas, hooks como useState, useEffect e useContext e consumo de Api. Neste caso foi utilizado Mock Api - serviço de web gratuito que nos permite simular uma Api Adicionei também alguns elementos visuais e utilizei também CSS module para evitar conflitos entre estilos. Ainda estou trabalhando com a responsividade, embora eu prefira utilizar o conceito de mobile firts, neste projeto tive como foco o aprendizado em React fixando todo aprendizado dos cursos até aqui então utilizei a base do css disponibilizado pela instrutora.
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<ul>
+   - Analisar Figma<br>
+   - Criar um projeto React<br>
+   - Identificar arquivos que podem ser removidos da base do projeto React<br>
+   - Configurar diretório utilizado no curso com o jsconfig.json<br>
+   - Criar componentes (Cabecalho e CabecalhoLink)<br>
+   - Praticar a criação de componentes (Rodapé)<br>
+    - Criar novos componentes;<br>
+    - Construir novas rotas;<br>
+    - Compartilhar informações entre componentes com props e children;<br>
+    - Importar dados de um arquivo json;<br>
+    - Usar o método .map para listar componentes.<br>
+    - Criar contextos através da ContextAPI com o createContext;
+    - Permitir o uso de contextos nos elementos com o Provider e useContext;<br>
+    - Construir hooks personalizados;<br>
+    - Procurar valores dentro de um array com o método some;<br>
+    - Remover itens de um array com o método splice e auxílio do indexOf;<br>
+    - Instalar e usar a extensão React Context DevTool.<br>
+    - Criar rotas dinâmicas;<br>
+    - Enviar parâmetros via URL;<br>
+    - Receber parâmetros com o hook useParams;<br>
+    - Planejar rotas para URLs não existentes;<br>
+    - Construir rotas aninhadas.<br>
+    - Fazer upload de um protótipo de API no Github;<br>
+    - Hospedar o protótipo de API no My Json Server;<br>
+    - Consumir APIs com o FetchAPI;<br>
+    - Executar o deploy do projeto.<br>
+</ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Como rodar o projeto:
 
-### `npm run build`
+**Você pode clonar o projeto e rodá-lo localmente seguindo os passos abaixo**
+1. `git clone https://github.com/gideonalves/cinetag-api.git` para clonar o projeto
+2. `yarn` ou `npm install` para instalar as dependências do projeto
+3. `yarn start` ou `npm start` para rodar o projeto
+4. Acessar [http://localhost:3000](http://localhost:3000) no navegador
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Para criar a API fake, utilizei o site My JSON Server**  : https://my-json-server.typicode.com/
 
-### `npm run eject`
+    Seguindo estes passos:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Criar um repositório on GitHub (<your-username>/<your-repo>)
+    Criar um arquivo db.json 
+    Visitar "https://my-json-server.typicode.com/your-username/your-repo" para acessar seu servidor.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Link para o repositório da API utilizada: https://github.com/gideonalves/cinetag-api.git
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Projeto criado com Create-React-App, para saber mais acesse a documentação: https://create-react-app.dev/docs/getting-started/**
 
-## Learn More
+## Considerações finais
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Desenvolvido por ``Gideon Alves``
